@@ -1,6 +1,6 @@
 /*GENERAL*/
 body {
-  background-color: whitesmoke;
+  background-color: grey;
 }
 
 /*ENCABEZADO*/
@@ -31,4 +31,141 @@ body {
 .botonPagina:hover {
   background-color: cadetblue;
   border-radius: 5px;
+}
+
+/*BALANCE PAGINA*/
+.titulo2 {
+  font-family: Roboto;
+  margin: 10px;
+}
+.titulo3 {
+  font-family: Roboto;
+  margin: 10px;
+}
+/*balance contenedor*/
+.balanceCont {
+  background-color: white;
+  border-radius: 8px;
+  width: 70%;
+  height: fit-content;
+  padding: 10px;
+  margin: 50px;
+}
+.totales {
+  margin-top: 30px;
+  margin-left: 20px;
+}
+.totalesCont {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.tituloG {
+  font-family: Roboto;
+}
+.pgan {
+  color: green;
+  font-family: Roboto;
+}
+.pgas {
+  color: red;
+  font-family: Roboto;
+}
+.tituloT {
+  font-family: Roboto;
+}
+.ptol {
+  font-family: Roboto;
+  color: black;
+  font-weight: 500;
+}
+/*filtros contenedor*/
+.filtrosCont {
+  background-color: white;
+  border-radius: 8px;
+  width: 70%;
+  height: fit-content;
+  padding: 10px;
+  margin: 50px;
+}
+.ocultarFiltros {
+  background-color: transparent;
+  border: none;
+  color: blue;
+  font-family: Roboto;
+  display: flex;
+  align-items: center;
+  margin: 10px;
+}
+.formFiltros {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 30px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.labelFil {
+  font-family: Roboto;
+  font-weight: 500;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.selectFil {
+  border-radius: 5px;
+  border: grey solid 1px;
+  width: 95%;
+  margin: 5px;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+.inputFil {
+  border-radius: 5px;
+  border: grey solid 1px;
+  width: 95%;
+  margin: 5px;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+/*operaciones contenedor*/
+.operacionesCont {
+  background-color: white;
+  border-radius: 8px;
+  width: 80%;
+  height: fit-content;
+  padding: 10px;
+  margin: 50px;
+}
+.nuevaOp {
+  background-color: #00d1b2;
+  padding: 8px;
+  border-radius: 5px;
+  border: none;
+  color: white;
+  font-family: Roboto;
+  margin: 5px;
+}
+.noResulOp {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 20px;
+  height: 550px;
+}
+.imagenOp {
+  height: 300px;
+}
+.sinRes {
+  font-family: Roboto;
+  font-weight: 500;
+  color: gray;
+  text-align: center;
+  font-size: 25px;
+  margin-top: 25px;
+}
+.camFil {
+  font-family: Roboto;
+  color: gray;
+  text-align: center;
 }

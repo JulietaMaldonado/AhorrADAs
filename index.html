@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>AhorrADAs</title>
     <!--ESTILOS-->
-    <link rel="stylesheet" href="style.css" />
+
     <!--FONT AWSOME-->
     <link
       rel="stylesheet"
@@ -30,6 +30,8 @@
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap"
       rel="stylesheet"
     />
+    <!--CSS-->
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <header class="encabezado">
@@ -52,6 +54,95 @@
         </button>
       </div>
     </header>
+
+    <!--BALANCE-->
+    <div class="container-fluid row" id="balancePag">
+      <div class="col-4">
+        <div class="balanceCont">
+          <h2 class="titulo2">Balance</h2>
+          <div class="col totales">
+            <div class="row totalesCont">
+              <div class="col-9"><h4 class="tituloG">Ganancias</h4></div>
+              <div class="col-3">
+                <p class="pgan">+$ <span id="ganaciasT"></span></p>
+              </div>
+            </div>
+            <div class="row totalesCont">
+              <div class="col-9"><h4 class="tituloG">Gastos</h4></div>
+              <div class="col-3">
+                <p class="pgas">-$ <span id="gastosT"></span></p>
+              </div>
+            </div>
+            <div class="row totalesCont">
+              <div class="col-9"><h4 class="tituloT">Total</h4></div>
+              <div class="col-3">
+                <p class="ptol">$ <span id="totalT"></span></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="filtrosCont">
+          <div class="row">
+            <dic class="col-6"><h3 class="titulo3">Filtros</h3></dic>
+            <dic class="col-6"
+              ><button class="ocultarFiltros">Ocultar filtros</button></dic
+            >
+          </div>
+          <div class="col filtros" id="filtrosOp">
+            <form action="" class="formFiltros">
+              <label for="" class="labelFil">Tipo</label>
+              <select name="" id="tipoOp" class="selectFil">
+                <option value="todos">Todos</option>
+                <option value="ganancia">Ganancia</option>
+                <option value="gasto">Gasto</option>
+              </select>
+
+              <label for="" class="labelFil">Categoría</label>
+              <select name="" id="categoriaOp" class="selectFil">
+                <option value="todas">Todas</option>
+                <option value="comida">Comida</option>
+                <option value="transporte">Transporte</option>
+                <option value="trabajo">Trabajo</option>
+                <option value="servicios">Servicios</option>
+                <option value="salidas">Salidas</option>
+                <option value="educacion">Educación</option>
+              </select>
+
+              <label for="" class="labelFil">Fecha</label>
+              <input type="date" name="" id="fechaOp" class="inputFil" />
+
+              <label for="" class="labelFil">Ordenar por</label>
+              <select name="" id="ordenarOP" class="selectFil">
+                <option value="maReciente">Más reciente</option>
+                <option value="meReciente">Menos reciente</option>
+                <option value="maMonto">Mayor Monto</option>
+                <option value="meMonto">Menor Monto</option>
+                <option value="AZ">A/Z</option>
+                <option value="ZA">Z/A</option>
+              </select>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="col-8">
+        <div class="operacionesCont">
+          <div class="row">
+            <div class="col-9"><h3 class="titulo3">Operaciones</h3></div>
+            <div class="col-3">
+              <button class="nuevaOp" id="nuevaOp">+Nueva operación</button>
+            </div>
+            <div class="col noResulOp">
+              <img src="./imagenes/imagenOp.svg" alt="" class="imagenOp" />
+              <p class="sinRes">Sin resultados</p>
+              <p class="camFil">Cambia los filtros o agrega operaciones</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--CATEGORIAS-->
+
+    <!--REPORTES-->
 
     <!--JAVASCRIPT-->
     <script src="main.js"></script>
