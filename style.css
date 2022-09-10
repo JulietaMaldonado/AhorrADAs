@@ -169,3 +169,64 @@ body {
   color: gray;
   text-align: center;
 }
+/*NUEVA OPERACION PAGINA*/
+.nuevaOperacion {
+  margin-left: 25%;
+  margin-right: 25%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+.nuevaOpeCont {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  width: 700px;
+  border-radius: 8px;
+  height: fit-content;
+  padding: 15px;
+}
+.formOp {
+  display: flex;
+  flex-direction: column;
+  width: 95%;
+  justify-content: center;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding: 10px;
+}
+.operacionLabel {
+  font-family: Roboto;
+  font-weight: 500;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.operacionFil {
+  border-radius: 5px;
+  border: grey solid 1px;
+  margin: 5px;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+.cancelarB {
+  width: fit-content;
+  padding: 10px;
+  background-color: darkgrey;
+  color: black;
+  border: none;
+  border-radius: 5px;
+  margin-right: 20px;
+  margin-top: 15px;
+  font-family: Roboto;
+}
+.agregarB {
+  width: fit-content;
+  padding: 10px;
+  background-color: #00d1b2;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  margin-right: 5px;
+  margin-top: 15px;
+  font-family: Roboto;
+}

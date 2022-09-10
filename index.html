@@ -56,7 +56,7 @@
     </header>
 
     <!--BALANCE-->
-    <div class="container-fluid row" id="balancePag">
+    <div class="container-fluid row" id="balancePag" style="display: none">
       <div class="col-4">
         <div class="balanceCont">
           <h2 class="titulo2">Balance</h2>
@@ -140,6 +140,44 @@
         </div>
       </div>
     </div>
+    <!--NUEVA OPERACION-->
+    <div class="nuevaOperacion">
+      <div class="nuevaOpeCont">
+        <h2 class="titulo2">Nueva operación</h2>
+        <div class="formOp">
+          <label for="" class="operacionLabel">Descripción</label>
+          <input type="text" id="descrip" class="operacionFil" />
+
+          <label for="" class="operacionLabel">Monto</label>
+          <input type="number" name="" id="monto" class="operacionFil" />
+
+          <label for="" class="operacionLabel">Tipo</label>
+          <select name="" id="tipoDe" class="operacionFil">
+            <option value="gasto">Gasto</option>
+            <option value="ganacias">Ganancia</option>
+          </select>
+
+          <label for="" class="operacionLabel">Categoría</label>
+          <select name="" id="catergoria" class="operacionFil">
+            <option value="comida">Comida</option>
+            <option value="transporte">Transporte</option>
+            <option value="trabajo">Trabajo</option>
+            <option value="servicios">Servicios</option>
+            <option value="salidas">Salidas</option>
+            <option value="educacion">Educación</option>
+          </select>
+
+          <label for="" class="operacionLabel">Fecha</label>
+          <input type="date" name="" id="fecha" class="operacionFil" />
+
+          <div class="row justify-content-end">
+            <button class="cancelarB">Cancelar</button>
+            <button class="agregarB">Agregar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <!--CATEGORIAS-->
 
     <!--REPORTES-->
