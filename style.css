@@ -230,3 +230,60 @@ body {
   margin-top: 15px;
   font-family: Roboto;
 }
+/*CATEGORIAS PAGINA*/
+.categoriaPag {
+  display: flex;
+  justify-content: center;
+}
+.categoriaCont {
+  background-color: white;
+  border-radius: 8px;
+  width: 80%;
+  height: fit-content;
+  padding: 10px;
+  margin: 50px;
+}
+.label1 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  margin-left: 15px;
+  font-family: Roboto;
+}
+.categoria1 {
+  margin-left: 15px;
+  margin-bottom: 20px;
+}
+.input1 {
+  width: 1050px;
+  border: 1px solid gray;
+  border-radius: 5px;
+  height: 40px;
+}
+.agregarCat {
+  background-color: #00d1b2;
+  padding: 8px;
+  border-radius: 5px;
+  border: none;
+  color: white;
+  font-family: Roboto;
+  margin-left: 20px;
+}
+.categoria2 {
+  margin-left: 15px;
+  margin-bottom: 20px;
+  margin-top: 40px;
+}
+.catNombre {
+  background-color: aquamarine;
+  color: #00d1b2;
+  padding: 8px;
+  border-radius: 5px;
+  width: fit-content;
+}
+.editYEli {
+  background-color: transparent;
+  border: none;
+  color: blue;
+  display: flex;
+  justify-content: center;
+}
