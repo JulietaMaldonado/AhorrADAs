@@ -287,3 +287,30 @@ body {
   display: flex;
   justify-content: center;
 }
+/*REPORTES*/
+.reportesPag {
+  display: flex;
+  justify-content: center;
+}
+.reportesCont {
+  background-color: white;
+  border-radius: 8px;
+  width: 60%;
+  height: fit-content;
+  padding: 10px;
+  margin: 50px;
+}
+.partesReportes {
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+.titulo4 {
+  font-size: 23px;
+  font-family: Roboto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 40px;
+}
+.resultadosCont {
+  margin-left: 20px;
+}

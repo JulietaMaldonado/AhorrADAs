@@ -179,7 +179,11 @@
     </div>
 
     <!--CATEGORIAS-->
-    <div class="container-fluid row categoriaPag" id="categoriaPag">
+    <div
+      class="container-fluid row categoriaPag"
+      id="categoriaPag"
+      style="display: none"
+    >
       <div class="categoriaCont">
         <h2 class="titulo2">Categorías</h2>
         <label for="" class="label1">Nombre</label>
@@ -190,37 +194,114 @@
         <div class="categoria2">
           <div class="row">
             <div class="col-10"><p class="catNombre">Comida</p></div>
-            <div class="col-1"><button class="editYEli" id="editar">Editar</button></div>
-            <div class="col-1"><button class="editYEli" id="eliminar">Eliminar</button></div>
+            <div class="col-1">
+              <button class="editYEli" id="editar">Editar</button>
+            </div>
+            <div class="col-1">
+              <button class="editYEli" id="eliminar">Eliminar</button>
+            </div>
           </div>
           <div class="row">
             <div class="col-10"><p class="catNombre">Servicios</p></div>
-            <div class="col-1"><button class="editYEli" id="editar">Editar</button></div>
-            <div class="col-1"><button class="editYEli" id="eliminar">Eliminar</button></div>
+            <div class="col-1">
+              <button class="editYEli" id="editar">Editar</button>
+            </div>
+            <div class="col-1">
+              <button class="editYEli" id="eliminar">Eliminar</button>
+            </div>
           </div>
           <div class="row">
             <div class="col-10"><p class="catNombre">Salidas</p></div>
-            <div class="col-1"><button class="editYEli" id="editar">Editar</button></div>
-            <div class="col-1"><button class="editYEli" id="eliminar">Eliminar</button></div>
+            <div class="col-1">
+              <button class="editYEli" id="editar">Editar</button>
+            </div>
+            <div class="col-1">
+              <button class="editYEli" id="eliminar">Eliminar</button>
+            </div>
           </div>
           <div class="row">
             <div class="col-10"><p class="catNombre">Educación</p></div>
-            <div class="col-1"><button class="editYEli" id="editar">Editar</button></div>
-            <div class="col-1"><button class="editYEli" id="eliminar">Eliminar</button></div>
+            <div class="col-1">
+              <button class="editYEli" id="editar">Editar</button>
+            </div>
+            <div class="col-1">
+              <button class="editYEli" id="eliminar">Eliminar</button>
+            </div>
           </div>
           <div class="row">
             <div class="col-10"><p class="catNombre">Transporte</p></div>
-            <div class="col-1"><button class="editYEli" id="editar">Editar</button></div>
-            <div class="col-1"><button class="editYEli" id="eliminar">Eliminar</button></div>
+            <div class="col-1">
+              <button class="editYEli" id="editar">Editar</button>
+            </div>
+            <div class="col-1">
+              <button class="editYEli" id="eliminar">Eliminar</button>
+            </div>
           </div>
           <div class="row">
             <div class="col-10"><p class="catNombre">Trabajo</p></div>
-            <div class="col-1"><button class="editYEli" id="editar">Editar</button></div>
-            <div class="col-1"><button class="editYEli" id="eliminar">Eliminar</button></div>
+            <div class="col-1">
+              <button class="editYEli" id="editar">Editar</button>
+            </div>
+            <div class="col-1">
+              <button class="editYEli" id="eliminar">Eliminar</button>
+            </div>
           </div>
+        </div>
+      </div>
     </div>
     <!--REPORTES-->
-
+    <div class="container-fluid row reportesPag" id="reportesPag">
+      <div class="reportesCont">
+        <h2 class="titulo2">Reportes</h2>
+        <div class="partesReportes">
+          <h4 class="titulo4">Resumen</h4>
+          <div class="resultadosCont">
+             <div class="row ">
+            <div class="col-8">
+              <label for="" class="label1">Categoría con mayor ganancia</label>
+            </div>
+            <div class="col-2"><p class="catNombre"></p></div>
+            <div class="col-2"><p class="mayorGan">+$</p></div>
+          </div>
+          <div class="row">
+            <div class="col-8">
+              <label for="" class="label1">Categoría con mayor gasto</label>
+            </div>
+            <div class="col-2"><p class="catNombre"></p></div>
+            <div class="col-2"><p class="mayorGas">-$</p></div>
+          </div>
+        <div class="row">
+          <div class="col-8">
+            <label for="" class="label1">Categoría con mayor balance</label>
+          </div>
+          <div class="col-2"><p class="catNombre"></p></div>
+          <div class="col-2"><p class="mayorBal">$</p></div>
+        </div>
+        <div class="row ">
+          <div class="col-8">
+            <label for="" class="label1">Categoría con mayor ganancia</label>
+          </div>
+          <div class="col-2"><p class="fechaNombre"></p></div>
+          <div class="col-2"><p class="mayorGan">+$</p></div>
+        </div>
+        <div class="row">
+          <div class="col-8">
+            <label for="" class="label1">Categoría con mayor gasto</label>
+          </div>
+          <div class="col-2"><p class="fechaNombre"></p></div>
+          <div class="col-2"><p class="mayorGas">-$</p></div>
+        </div>
+          </div>
+        <div class="partesReportes">
+          <h4 class="titulo4">Totales por categorías</h4>
+ <div class="resultadoCont"></div>
+        </div>
+        <div class="partesReportes">
+          <h4 class="titulo4">Totales por mes</h4>
+           <div class="resultadoCont"></div>
+        </div>
+      </div>
+    </div>
     <!--JAVASCRIPT-->
     <script src="main.js"></script>
     <!-- JavaScript Bundle with Popper -->
