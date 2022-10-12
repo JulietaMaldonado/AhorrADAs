@@ -39,24 +39,24 @@
         <h1 class="titulo"><i class="fa-solid fa-wallet"></i> AhorrADAs</h1>
       </div>
       <div class="col-1">
-        <button class="botonPagina">
+        <button class="botonPagina" id="balancePagina">
           <i class="fa-solid fa-chart-line"></i> Balance
         </button>
       </div>
       <div class="col-1">
-        <button class="botonPagina">
+        <button class="botonPagina" id="categoriasPagina">
           <i class="fa-solid fa-tag"></i> Categorías
         </button>
       </div>
       <div class="col-1">
-        <button class="botonPagina">
+        <button class="botonPagina" id="reportesPagina">
           <i class="fa-solid fa-chart-pie"></i> Reportes
         </button>
       </div>
     </header>
 
     <!--BALANCE-->
-    <div class="container-fluid row" id="balancePag" style="display: none">
+    <div class="container-fluid balancePag" id="balancePag">
       <div class="col-4">
         <div class="balanceCont">
           <h2 class="titulo2">Balance</h2>
@@ -141,7 +141,7 @@
       </div>
     </div>
     <!--NUEVA OPERACION-->
-    <div class="nuevaOperacion" style="display: none">
+    <div class="nuevaOperacion" style="display: none" id="nuevaOperacion" style="display: none">
       <div class="nuevaOpeCont">
         <h2 class="titulo2">Nueva operación</h2>
         <div class="formOp">
@@ -250,7 +250,7 @@
       </div>
     </div>
     <!--REPORTES-->
-    <div class="container-fluid row reportesPag" id="reportesPag">
+    <div class="container-fluid row reportesPag" id="reportesPag" style="display: none">
       <div class="reportesCont">
         <h2 class="titulo2">Reportes</h2>
         <div class="partesReportes">
